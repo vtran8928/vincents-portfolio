@@ -121,15 +121,15 @@ export default function Home() {
       </section>
 
       {/* Experience Section */}
-      <section className="max-w-6xl mx-auto py-20 md:py-28 border-t border-emerald-500/10">
-        <h2 className="text-4xl md:text-5xl font-light tracking-tight mb-12 text-gray-50">Experience</h2>
+      <section className="max-w-6xl mx-auto py-20 md:py-28 border-t border-slate-200">
+        <h2 className="text-4xl md:text-5xl font-light tracking-tight mb-12 text-slate-900">Experience</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="group bg-neutral-900/50 border border-emerald-500/20 rounded-2xl p-7 hover:border-emerald-500/40 transition-all duration-300">
+          <div className="group bg-white border border-slate-200 rounded-2xl p-7 hover:border-slate-300 hover:shadow-lg transition-all duration-300">
             <div className="mb-4">
-              <h3 className="text-lg font-light text-gray-100 group-hover:text-emerald-400 transition-colors mb-1">Student Assistant</h3>
-              <p className="text-emerald-400 font-light text-sm mb-1">Georgia Tech Tutoring and Academic Support</p>
-              <p className="text-gray-500 font-light text-sm">Dec 2024 - Dec 2025</p>
+              <h3 className="text-lg font-light text-slate-900 group-hover:text-slate-700 transition-colors mb-1">Student Assistant</h3>
+              <p className="text-slate-600 font-light text-sm mb-1">Georgia Tech Tutoring and Academic Support</p>
+              <p className="text-slate-500 font-light text-sm">Dec 2024 - Dec 2025</p>
             </div>
             <ul className="space-y-2">
               {[
@@ -137,19 +137,19 @@ export default function Home() {
                 'Analyzed 1500 data points to quantify impact and enhance efficiency',
                 'Scheduled and managed 90+ tutoring sessions, overseeing 110+ hours of operations'
               ].map((item, i) => (
-                <li key={i} className="text-gray-400 font-light text-sm flex gap-3">
-                  <span className="text-emerald-400 mt-1">•</span>
+                <li key={i} className="text-slate-600 font-light text-sm flex gap-3">
+                  <span className="text-slate-400 mt-1">•</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
           </div>
 
-          <div className="group bg-neutral-900/50 border border-emerald-500/20 rounded-2xl p-7 hover:border-emerald-500/40 transition-all duration-300">
+          <div className="group bg-white border border-slate-200 rounded-2xl p-7 hover:border-slate-300 hover:shadow-lg transition-all duration-300">
             <div className="mb-4">
-              <h3 className="text-lg font-light text-gray-100 group-hover:text-emerald-400 transition-colors mb-1">Restaurant Waiter/Cashier</h3>
-              <p className="text-emerald-400 font-light text-sm mb-1">Super Pho</p>
-              <p className="text-gray-500 font-light text-sm">Dec 2019 - Aug 2023</p>
+              <h3 className="text-lg font-light text-slate-900 group-hover:text-slate-700 transition-colors mb-1">Restaurant Waiter/Cashier</h3>
+              <p className="text-slate-600 font-light text-sm mb-1">Super Pho</p>
+              <p className="text-slate-500 font-light text-sm">Dec 2019 - Aug 2023</p>
             </div>
             <ul className="space-y-2">
               {[
@@ -158,8 +158,8 @@ export default function Home() {
                 'Resolved customer issues with professionalism and efficiency',
                 'Upsold featured items through tailored recommendations'
               ].map((item, i) => (
-                <li key={i} className="text-gray-400 font-light text-sm flex gap-3">
-                  <span className="text-emerald-400 mt-1">•</span>
+                <li key={i} className="text-slate-600 font-light text-sm flex gap-3">
+                  <span className="text-slate-400 mt-1">•</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -169,19 +169,19 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="max-w-6xl mx-auto py-20 md:py-28 border-t border-emerald-500/10">
-        <h2 className="text-4xl md:text-5xl font-light tracking-tight mb-12 text-gray-50">Projects</h2>
+      <section className="max-w-6xl mx-auto py-20 md:py-28 border-t border-slate-200">
+        <h2 className="text-4xl md:text-5xl font-light tracking-tight mb-12 text-slate-900">Projects</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Project 1 */}
-          <div className="group bg-neutral-900/50 border border-emerald-500/20 rounded-2xl p-7 hover:border-emerald-500/40 transition-all duration-300">
+          <div className="group bg-white border border-slate-200 rounded-2xl p-7 hover:border-slate-300 hover:shadow-lg transition-all duration-300">
             <div className="mb-3">
-              <h3 className="text-lg font-light text-gray-100 group-hover:text-emerald-400 transition-colors mb-2">
+              <h3 className="text-lg font-light text-slate-900 group-hover:text-slate-700 transition-colors mb-2">
                 Spotify Analytics Dashboard
               </h3>
               <div className="flex flex-wrap gap-2">
                 {['Java', 'OpenAI API', 'Firebase', 'Spotify API', 'Android Studio'].map((tech) => (
-                  <span key={tech} className="px-2 py-1 bg-emerald-500/10 text-emerald-300 text-xs font-light rounded-full border border-emerald-500/20">
+                  <span key={tech} className="px-2 py-1 bg-slate-100 text-slate-700 text-xs font-light rounded-full border border-slate-200">
                     {tech}
                   </span>
                 ))}
@@ -194,26 +194,26 @@ export default function Home() {
                 'Generated personalized artist recommendations and lifestyle insights using OpenAI API with CoT prompting to improve recommendation logic',
                 'Integrated Firebase Cloud Storage for cross-device data synchronization across user sessions'
               ].map((item, i) => (
-                <li key={i} className="text-gray-400 font-light text-sm flex gap-2">
-                  <span className="text-emerald-400 mt-1">•</span>
+                <li key={i} className="text-slate-600 font-light text-sm flex gap-2">
+                  <span className="text-slate-400 mt-1">•</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
-            <a href="https://sites.google.com/view/cs-2340-team-5-spotify-wrapped/project-description-and-process?authuser=0" className="inline-flex items-center gap-2 text-emerald-400 font-light hover:text-emerald-300 transition-colors text-sm">
+            <a href="https://sites.google.com/view/cs-2340-team-5-spotify-wrapped/project-description-and-process?authuser=0" className="inline-flex items-center gap-2 text-slate-900 font-light hover:text-slate-600 transition-colors text-sm">
               View Project →
             </a>
           </div>
 
           {/* Project 2 */}
-          <div className="group bg-neutral-900/50 border border-emerald-500/20 rounded-2xl p-7 hover:border-emerald-500/40 transition-all duration-300">
+          <div className="group bg-white border border-slate-200 rounded-2xl p-7 hover:border-slate-300 hover:shadow-lg transition-all duration-300">
             <div className="mb-3">
-              <h3 className="text-lg font-light text-gray-100 group-hover:text-emerald-400 transition-colors mb-2">
+              <h3 className="text-lg font-light text-slate-900 group-hover:text-slate-700 transition-colors mb-2">
                 Smart Home Maintenance App
               </h3>
               <div className="flex flex-wrap gap-2">
                 {['JavaScript', 'React Native', 'Node.js', 'SQL', 'OpenAI API', 'Google Maps API'].map((tech) => (
-                  <span key={tech} className="px-2 py-1 bg-emerald-500/10 text-emerald-300 text-xs font-light rounded-full border border-emerald-500/20">
+                  <span key={tech} className="px-2 py-1 bg-slate-100 text-slate-700 text-xs font-light rounded-full border border-slate-200">
                     {tech}
                   </span>
                 ))}
@@ -226,26 +226,26 @@ export default function Home() {
                 'Developed RESTful API with Express.js handling CRUD operations for tasks, appliances, and user schedules',
                 'Implemented RAG chatbot providing appliance-specific troubleshooting using user manuals and OpenAI API'
               ].map((item, i) => (
-                <li key={i} className="text-gray-400 font-light text-sm flex gap-2">
-                  <span className="text-emerald-400 mt-1">•</span>
+                <li key={i} className="text-slate-600 font-light text-sm flex gap-2">
+                  <span className="text-slate-400 mt-1">•</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
-            <a href="https://docs.google.com/presentation/d/1Oa_wFP8EjcpmFjLrQhA4Yc2AlGI-frKPavw7rBqI_8M/edit?usp=sharing" className="inline-flex items-center gap-2 text-emerald-400 font-light hover:text-emerald-300 transition-colors text-sm">
+            <a href="https://docs.google.com/presentation/d/1Oa_wFP8EjcpmFjLrQhA4Yc2AlGI-frKPavw7rBqI_8M/edit?usp=sharing" className="inline-flex items-center gap-2 text-slate-900 font-light hover:text-slate-600 transition-colors text-sm">
               View Project →
             </a>
           </div>
 
           {/* Project 3 */}
-          <div className="group bg-neutral-900/50 border border-emerald-500/20 rounded-2xl p-7 hover:border-emerald-500/40 transition-all duration-300">
+          <div className="group bg-white border border-slate-200 rounded-2xl p-7 hover:border-slate-300 hover:shadow-lg transition-all duration-300">
             <div className="mb-3">
-              <h3 className="text-lg font-light text-gray-100 group-hover:text-emerald-400 transition-colors mb-2">
+              <h3 className="text-lg font-light text-slate-900 group-hover:text-slate-700 transition-colors mb-2">
                 Cosmic Voyage – Interactive 3D Space Rendering
               </h3>
               <div className="flex flex-wrap gap-2">
                 {['C++', 'OpenGL', 'GLSL'].map((tech) => (
-                  <span key={tech} className="px-2 py-1 bg-emerald-500/10 text-emerald-300 text-xs font-light rounded-full border border-emerald-500/20">
+                  <span key={tech} className="px-2 py-1 bg-slate-100 text-slate-700 text-xs font-light rounded-full border border-slate-200">
                     {tech}
                   </span>
                 ))}
@@ -257,26 +257,26 @@ export default function Home() {
                 'Wrote custom GLSL shaders implementing Phong lighting model for realistic lighting and atmospheric glow effects',
                 'Optimized rendering to maintain 60+ FPS with 300+ moving objects using object pooling and frame-rate independence'
               ].map((item, i) => (
-                <li key={i} className="text-gray-400 font-light text-sm flex gap-2">
-                  <span className="text-emerald-400 mt-1">•</span>
+                <li key={i} className="text-slate-600 font-light text-sm flex gap-2">
+                  <span className="text-slate-400 mt-1">•</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
-            <a href="https://www.youtube.com/watch?v=vvPgb1zU2Po" className="inline-flex items-center gap-2 text-emerald-400 font-light hover:text-emerald-300 transition-colors text-sm">
+            <a href="https://www.youtube.com/watch?v=vvPgb1zU2Po" className="inline-flex items-center gap-2 text-slate-900 font-light hover:text-slate-600 transition-colors text-sm">
               View Project →
             </a>
           </div>
 
           {/* Project 4 */}
-          <div className="group bg-neutral-900/50 border border-emerald-500/20 rounded-2xl p-7 hover:border-emerald-500/40 transition-all duration-300">
+          <div className="group bg-white border border-slate-200 rounded-2xl p-7 hover:border-slate-300 hover:shadow-lg transition-all duration-300">
             <div className="mb-3">
-              <h3 className="text-lg font-light text-gray-100 group-hover:text-emerald-400 transition-colors mb-2">
+              <h3 className="text-lg font-light text-slate-900 group-hover:text-slate-700 transition-colors mb-2">
                 Potato Panic – Retro Gameboy Advance Survival Game
               </h3>
               <div className="flex flex-wrap gap-2">
                 {['C', 'GBA SDK'].map((tech) => (
-                  <span key={tech} className="px-2 py-1 bg-emerald-500/10 text-emerald-300 text-xs font-light rounded-full border border-emerald-500/20">
+                  <span key={tech} className="px-2 py-1 bg-slate-100 text-slate-700 text-xs font-light rounded-full border border-slate-200">
                     {tech}
                   </span>
                 ))}
@@ -287,26 +287,26 @@ export default function Home() {
                 'Developed a wave-based survival game for the GameBoy Advance with animated sprites, parallax scrolling, and dynamic visual effects',
                 'Implemented enemy AI pathfinding, boss combat mechanics, and real-time VRAM manipulation using Mode 0 graphics'
               ].map((item, i) => (
-                <li key={i} className="text-gray-400 font-light text-sm flex gap-2">
-                  <span className="text-emerald-400 mt-1">•</span>
+                <li key={i} className="text-slate-600 font-light text-sm flex gap-2">
+                  <span className="text-slate-400 mt-1">•</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
-            <a href="https://vincenttran8928.wixsite.com/potato-panic-1" className="inline-flex items-center gap-2 text-emerald-400 font-light hover:text-emerald-300 transition-colors text-sm">
+            <a href="https://vincenttran8928.wixsite.com/potato-panic-1" className="inline-flex items-center gap-2 text-slate-900 font-light hover:text-slate-600 transition-colors text-sm">
               View Project →
             </a>
           </div>
 
           {/* Project 5 */}
-          <div className="group bg-neutral-900/50 border border-emerald-500/20 rounded-2xl p-7 hover:border-emerald-500/40 transition-all duration-300">
+          <div className="group bg-white border border-slate-200 rounded-2xl p-7 hover:border-slate-300 hover:shadow-lg transition-all duration-300">
             <div className="mb-3">
-              <h3 className="text-lg font-light text-gray-100 group-hover:text-emerald-400 transition-colors mb-2">
+              <h3 className="text-lg font-light text-slate-900 group-hover:text-slate-700 transition-colors mb-2">
                 Interactive Data Story – Web Visualization
               </h3>
               <div className="flex flex-wrap gap-2">
                 {['D3.js', 'JavaScript', 'HTML/CSS', 'GitHub Pages'].map((tech) => (
-                  <span key={tech} className="px-2 py-1 bg-emerald-500/10 text-emerald-300 text-xs font-light rounded-full border border-emerald-500/20">
+                  <span key={tech} className="px-2 py-1 bg-slate-100 text-slate-700 text-xs font-light rounded-full border border-slate-200">
                     {tech}
                   </span>
                 ))}
@@ -317,26 +317,26 @@ export default function Home() {
                 'Created narrative-driven web visualization exploring insights from real-world datasets, hosted via GitHub Pages',
                 'Implemented interactive charts with filtering, brushing, and smooth animation transitions for enhanced user engagement'
               ].map((item, i) => (
-                <li key={i} className="text-gray-400 font-light text-sm flex gap-2">
-                  <span className="text-emerald-400 mt-1">•</span>
+                <li key={i} className="text-slate-600 font-light text-sm flex gap-2">
+                  <span className="text-slate-400 mt-1">•</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
-            <a href="https://auddin8git.github.io/CS4460FinalTeamWe-3InfoVis/" className="inline-flex items-center gap-2 text-emerald-400 font-light hover:text-emerald-300 transition-colors text-sm">
+            <a href="https://auddin8git.github.io/CS4460FinalTeamWe-3InfoVis/" className="inline-flex items-center gap-2 text-slate-900 font-light hover:text-slate-600 transition-colors text-sm">
               View Project →
             </a>
           </div>
 
           {/* Project 6 */}
-          <div className="group bg-neutral-900/50 border border-emerald-500/20 rounded-2xl p-7 hover:border-emerald-500/40 transition-all duration-300">
+          <div className="group bg-white border border-slate-200 rounded-2xl p-7 hover:border-slate-300 hover:shadow-lg transition-all duration-300">
             <div className="mb-3">
-              <h3 className="text-lg font-light text-gray-100 group-hover:text-emerald-400 transition-colors mb-2">
+              <h3 className="text-lg font-light text-slate-900 group-hover:text-slate-700 transition-colors mb-2">
                 Nomadic Radio – Adaptive Auditory Notification Simulator
               </h3>
               <div className="flex flex-wrap gap-2">
                 {['Java', 'Processing'].map((tech) => (
-                  <span key={tech} className="px-2 py-1 bg-emerald-500/10 text-emerald-300 text-xs font-light rounded-full border border-emerald-500/20">
+                  <span key={tech} className="px-2 py-1 bg-slate-100 text-slate-700 text-xs font-light rounded-full border border-slate-200">
                     {tech}
                   </span>
                 ))}
@@ -348,13 +348,13 @@ export default function Home() {
                 'Built a priority-based audio pipeline combining earcons and text-to-speech',
                 'Dynamically adjusts pitch and volume to suppress low-priority alerts in focus-critical scenarios'
               ].map((item, i) => (
-                <li key={i} className="text-gray-400 font-light text-sm flex gap-2">
-                  <span className="text-emerald-400 mt-1">•</span>
+                <li key={i} className="text-slate-600 font-light text-sm flex gap-2">
+                  <span className="text-slate-400 mt-1">•</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
-            <a href="https://drive.google.com/file/d/1p38nKnL21Jcq92YNST9LMyNuoyo7MQWq/view?usp=sharing" className="inline-flex items-center gap-2 text-emerald-400 font-light hover:text-emerald-300 transition-colors text-sm">
+            <a href="https://drive.google.com/file/d/1p38nKnL21Jcq92YNST9LMyNuoyo7MQWq/view?usp=sharing" className="inline-flex items-center gap-2 text-slate-900 font-light hover:text-slate-600 transition-colors text-sm">
               View Project →
             </a>
           </div>
@@ -362,18 +362,18 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="max-w-5xl mx-auto py-12 md:py-16 border-t border-emerald-500/10">
-        <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-8 text-gray-50">Contact</h2>
+      <section className="max-w-5xl mx-auto py-12 md:py-16 border-t border-slate-200">
+        <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-8 text-slate-900">Contact</h2>
         <div className="flex flex-wrap gap-8">
           <div>
-            <p className="text-emerald-400 font-light text-sm mb-2">Email</p>
-            <a href="mailto:vincenttran8928@gmail.com" className="text-gray-300 font-light hover:text-emerald-400 transition-colors">
+            <p className="text-slate-600 font-light text-sm mb-2">Email</p>
+            <a href="mailto:vincenttran8928@gmail.com" className="text-slate-800 font-light hover:text-slate-600 transition-colors">
               vincenttran8928@gmail.com
             </a>
           </div>
           <div>
-            <p className="text-emerald-400 font-light text-sm mb-2">Location</p>
-            <p className="text-gray-300 font-light">Atlanta, GA</p>
+            <p className="text-slate-600 font-light text-sm mb-2">Location</p>
+            <p className="text-slate-800 font-light">Atlanta, GA</p>
           </div>
         </div>
       </section>
