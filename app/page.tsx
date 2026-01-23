@@ -19,7 +19,7 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://drive.google.com/file/d/1k5VbZVBWgjUmAQl9LyJkElLQO29yjtPi/view?usp=sharing"
+                href="https://drive.google.com/file/d/16XDHu6wh4eChELvsr5DqF4_GjJpgLVKP/view?usp=sharing"
                 className="px-7 py-3 rounded-lg bg-emerald-600 text-neutral-950 font-medium hover:bg-emerald-500 transition-colors duration-300"
               >
                 Resume
