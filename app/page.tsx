@@ -1,6 +1,9 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100 px-6 font-light">
+    <main className="min-h-screen text-slate-100 px-6 font-light" style={{
+      background: `linear-gradient(135deg, #0f172a 0%, #1a1f3a 25%, #141e2e 50%, #0f1419 75%, #1a1f35 100%)`,
+      backgroundAttachment: 'fixed'
+    }}>
       <style>{`
         @keyframes fadeInUp {
           from {
