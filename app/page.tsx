@@ -146,7 +146,7 @@ export default function Home() {
                 Spotify Analytics Dashboard
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['Java', 'Spotify API', 'Firebase', 'OpenAI'].map((tech) => (
+                {['Java', 'OpenAI API', 'Firebase', 'Spotify API', 'Android Studio'].map((tech) => (
                   <span key={tech} className="px-2 py-1 bg-emerald-500/10 text-emerald-300 text-xs font-light rounded-full border border-emerald-500/20">
                     {tech}
                   </span>
@@ -155,10 +155,10 @@ export default function Home() {
             </div>
             <ul className="space-y-2 mb-4">
               {[
-                'Developed a backend-driven music analytics application similar to Spotify Wrapped',
-                'Implemented OAuth authentication and Spotify API integrations to securely retrieve and process user data',
-                'Integrated OpenAI APIs to generate artist recommendations and AI-driven listening insights',
-                'Utilized Firebase Cloud Storage to persist user data and support cross-device synchronization'
+                'Developed a music analytics application displaying personalized listening statistics using Progressive Disclosure UI patterns',
+                'Implemented OAuth 2.0 authentication and retrieved user listening data via Spotify Web API',
+                'Generated personalized artist recommendations and lifestyle insights using OpenAI API with CoT prompting to improve recommendation logic',
+                'Integrated Firebase Cloud Storage for cross-device data synchronization across user sessions'
               ].map((item, i) => (
                 <li key={i} className="text-gray-400 font-light text-sm flex gap-2">
                   <span className="text-emerald-400 mt-1">•</span>
@@ -178,7 +178,7 @@ export default function Home() {
                 Smart Home Maintenance App
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['JavaScript', 'React Native', 'Node.js', 'MySQL', 'Google Cloud', 'OpenAI'].map((tech) => (
+                {['JavaScript', 'React Native', 'Node.js', 'SQL', 'OpenAI API', 'Google Maps API'].map((tech) => (
                   <span key={tech} className="px-2 py-1 bg-emerald-500/10 text-emerald-300 text-xs font-light rounded-full border border-emerald-500/20">
                     {tech}
                   </span>
@@ -187,10 +187,10 @@ export default function Home() {
             </div>
             <ul className="space-y-2 mb-4">
               {[
-                'Designed and implemented RESTful backend services using Express.js and MySQL for task scheduling',
-                'Integrated Google Maps API and OpenAI APIs for location-based services and AI maintenance guidance',
-                'Deployed and managed relational data using Google Cloud SQL for reliability and scalability',
-                'Connected backend services to React Native frontend supporting cross-platform mobile clients'
+                'Built cross-platform mobile application for appliance tracking and maintenance scheduling, integrating Google Maps API for proximity-based service provider discovery',
+                'Designed normalized MySQL database with ACID transactions on Google Cloud SQL for tracking and task scheduling',
+                'Developed RESTful API with Express.js handling CRUD operations for tasks, appliances, and user schedules',
+                'Implemented RAG chatbot providing appliance-specific troubleshooting using user manuals and OpenAI API'
               ].map((item, i) => (
                 <li key={i} className="text-gray-400 font-light text-sm flex gap-2">
                   <span className="text-emerald-400 mt-1">•</span>
@@ -219,10 +219,9 @@ export default function Home() {
             </div>
             <ul className="space-y-2 mb-4">
               {[
-                'Engineered a real-time rendering system with procedural environments and animation pipelines',
-                'Implemented GPU shaders and multi-octave noise functions for dynamic visual effects',
-                'Built particle systems and orbital mechanics with correct depth sorting and transparency handling',
-                'Optimized performance using instanced rendering and object pooling to sustain 60+ FPS'
+                'Developed interactive 3D space environment with orbiting planets, rotating asteroids, animated starfields, and particle effects',
+                'Wrote custom GLSL shaders implementing Phong lighting model for realistic lighting and atmospheric glow effects',
+                'Optimized rendering to maintain 60+ FPS with 300+ moving objects using object pooling and frame-rate independence'
               ].map((item, i) => (
                 <li key={i} className="text-gray-400 font-light text-sm flex gap-2">
                   <span className="text-emerald-400 mt-1">•</span>
@@ -251,9 +250,8 @@ export default function Home() {
             </div>
             <ul className="space-y-2 mb-4">
               {[
-                'Designed and developed a wave-based action game for the GBA featuring animated sprites and parallax scrolling',
-                'Implemented enemy AI, boss battles, and custom cheat code mechanics that enhanced special attacks',
-                'Integrated tile/palette manipulation, real-time audio mixing, and multiple game states using Mode 0 graphics'
+                'Developed a wave-based survival game for the GameBoy Advance with animated sprites, parallax scrolling, and dynamic visual effects',
+                'Implemented enemy AI pathfinding, boss combat mechanics, and real-time VRAM manipulation using Mode 0 graphics'
               ].map((item, i) => (
                 <li key={i} className="text-gray-400 font-light text-sm flex gap-2">
                   <span className="text-emerald-400 mt-1">•</span>
@@ -282,10 +280,8 @@ export default function Home() {
             </div>
             <ul className="space-y-2 mb-4">
               {[
-                'Designed and developed an interactive, narrative-driven web visualization using D3.js',
-                'Implemented dynamic charts with filtering, brushing, and animation techniques',
-                'Explored and communicated insights from real-world datasets',
-                'Hosted as a public site via GitHub Pages'
+                'Created narrative-driven web visualization exploring insights from real-world datasets, hosted via GitHub Pages',
+                'Implemented interactive charts with filtering, brushing, and smooth animation transitions for enhanced user engagement'
               ].map((item, i) => (
                 <li key={i} className="text-gray-400 font-light text-sm flex gap-2">
                   <span className="text-emerald-400 mt-1">•</span>
