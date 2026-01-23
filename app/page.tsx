@@ -1,40 +1,74 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-neutral-950 text-gray-50 px-6 font-light">
+    <main className="min-h-screen bg-white text-slate-900 px-6 font-light">
+      <style>{`
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+        
+        .animate-fade-in-up {
+          animation: fadeInUp 0.6s ease-out forwards;
+        }
+        
+        .animate-fade-in {
+          animation: fadeIn 0.8s ease-out forwards;
+        }
+        
+        .animation-delay-1 { animation-delay: 0.1s; }
+        .animation-delay-2 { animation-delay: 0.2s; }
+        .animation-delay-3 { animation-delay: 0.3s; }
+        .animation-delay-4 { animation-delay: 0.4s; }
+      `}</style>
       <section className="max-w-5xl mx-auto py-24 md:py-32">
         <div className="flex flex-col md:flex-row items-center gap-12 mb-12">
           {/* Hero Text */}
           <div className="flex-1">
-            <h1 className="text-6xl md:text-7xl font-light tracking-tight mb-4 text-gray-50">
+            <h1 className="text-6xl md:text-7xl font-light tracking-tight mb-4 text-slate-900 animate-fade-in-up">
               Vincent Tran
             </h1>
 
-            <p className="text-lg md:text-xl text-emerald-400 font-light mb-4">
-              Software Engineer · Backend · Mobile · Systems
+            <p className="text-lg md:text-xl text-slate-600 font-light mb-4 animate-fade-in-up animation-delay-1">
+              Software Engineer
             </p>
 
-            <p className="text-gray-400 max-w-2xl mb-10 leading-relaxed text-base md:text-lg font-light">
+            <p className="text-slate-500 max-w-2xl mb-10 leading-relaxed text-base md:text-lg font-light animate-fade-in-up animation-delay-2">
               Computer Science Student at Georgia Tech building scalable and viable software. Passionate about crafting elegant solutions to complex problems.
             </p>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 animate-fade-in-up animation-delay-3">
               <a
                 href="https://drive.google.com/file/d/1-61T_1w71fF-S-OkJt6UX4D4MqKhrqpN/view?usp=sharing"
-                className="px-7 py-3 rounded-lg bg-emerald-600 text-neutral-950 font-medium hover:bg-emerald-500 transition-colors duration-300"
+                className="px-7 py-3 rounded-lg bg-slate-900 text-white font-medium hover:bg-slate-800 transition-all duration-300 hover:shadow-lg hover:scale-105"
               >
                 Resume
               </a>
 
               <a
                 href="https://github.com/vtran8928"
-                className="px-7 py-3 rounded-lg border-2 border-emerald-500/50 text-emerald-400 font-light hover:border-emerald-400 hover:text-emerald-300 transition-colors duration-300"
+                className="px-7 py-3 rounded-lg border-2 border-slate-300 text-slate-900 font-light hover:border-slate-900 hover:bg-slate-50 transition-all duration-300 hover:shadow-md"
               >
                 GitHub
               </a>
 
               <a
                 href="https://www.linkedin.com/in/vincent-tran-789440381"
-                className="px-7 py-3 rounded-lg border-2 border-emerald-500/50 text-emerald-400 font-light hover:border-emerald-400 hover:text-emerald-300 transition-colors duration-300"
+                className="px-7 py-3 rounded-lg border-2 border-slate-300 text-slate-900 font-light hover:border-slate-900 hover:bg-slate-50 transition-all duration-300 hover:shadow-md"
               >
                 LinkedIn
               </a>
@@ -42,9 +76,9 @@ export default function Home() {
           </div>
 
           {/* Profile Image Box */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 animate-fade-in-up animation-delay-4">
             <div className="relative w-48 h-48 md:w-56 md:h-56">
-              <div className="relative w-full h-full bg-neutral-900 rounded-2xl border border-emerald-500/30 p-1 overflow-hidden">
+              <div className="relative w-full h-full bg-slate-100 rounded-2xl border border-slate-200 p-1 overflow-hidden hover:shadow-lg transition-all duration-300">
                 <img
                   src="/profile.jpg"
                   alt="Vincent Tran"
@@ -58,26 +92,26 @@ export default function Home() {
 
       {/* Contact Section */}
       {/* Education & Coursework Section */}
-      <section className="max-w-6xl mx-auto py-20 md:py-28 border-t border-emerald-500/10">
+      <section className="max-w-6xl mx-auto py-20 md:py-28 border-t border-slate-200">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Education */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-8 text-gray-50">Education</h2>
-            <div className="border-l-2 border-emerald-500/30 pl-6">
-              <h3 className="text-lg font-light text-gray-100 mb-1">Bachelor of Science in Computer Science</h3>
-              <p className="text-emerald-400 font-light text-sm mb-3">Georgia Institute of Technology, College of Computing</p>
-              <p className="text-gray-400 font-light text-sm mb-2">Atlanta, Georgia</p>
-              <p className="text-gray-400 font-light text-sm mb-1">Graduation: December 2025</p>
-              <p className="text-gray-400 font-light text-sm">GPA: 3.47 (major)</p>
+            <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-8 text-slate-900">Education</h2>
+            <div className="border-l-2 border-slate-300 pl-6">
+              <h3 className="text-lg font-light text-slate-800 mb-1">Bachelor of Science in Computer Science</h3>
+              <p className="text-slate-600 font-light text-sm mb-3">Georgia Institute of Technology, College of Computing</p>
+              <p className="text-slate-500 font-light text-sm mb-2">Atlanta, Georgia</p>
+              <p className="text-slate-500 font-light text-sm mb-1">Graduation: December 2025</p>
+              <p className="text-slate-500 font-light text-sm">GPA: 3.47 (major)</p>
             </div>
           </div>
 
           {/* Coursework */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-8 text-gray-50">Coursework</h2>
+            <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-8 text-slate-900">Coursework</h2>
             <div className="grid grid-cols-1 gap-3">
               {['Data Structures & Algorithms', 'Object-Oriented Design', 'Databases', 'Machine Learning', 'Artificial Intelligence', 'Data Visualization', 'Computer Graphics', 'UI/UX', 'Media/Device Architecture'].map((course) => (
-                <div key={course} className="bg-neutral-900/50 border border-emerald-500/20 rounded-lg px-4 py-2 text-gray-300 font-light text-sm">
+                <div key={course} className="bg-slate-50 border border-slate-200 rounded-lg px-4 py-2 text-slate-700 font-light text-sm hover:bg-white hover:border-slate-300 hover:shadow-sm transition-all duration-300">
                   {course}
                 </div>
               ))}
