@@ -105,7 +105,7 @@ export default function Home() {
               <p className="text-slate-300 font-light text-sm mb-3">Georgia Institute of Technology, College of Computing</p>
               <p className="text-slate-400 font-light text-sm mb-2">Atlanta, Georgia</p>
               <p className="text-slate-400 font-light text-sm mb-1">Graduation: December 2025</p>
-              <p className="text-slate-400 font-light text-sm">GPA: 3.47 (major)</p>
+              <p className="text-slate-400 font-light text-sm">GPA: 3.47 </p>
             </div>
           </div>
 
