@@ -56,7 +56,7 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-4 animate-fade-in-up animation-delay-3">
               <a
-                href="https://drive.google.com/file/d/1-61T_1w71fF-S-OkJt6UX4D4MqKhrqpN/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Aa8MvRvQajGLqzEapQmqGuD0etDpjRSm/view?usp=sharing"
                 className="px-7 py-3 rounded-lg bg-slate-100 text-slate-900 font-medium hover:bg-white transition-all duration-300 hover:shadow-lg hover:scale-105"
               >
                 Resume
