@@ -56,7 +56,7 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-4 animate-fade-in-up animation-delay-3">
               <a
-                href="https://drive.google.com/file/d/1Cy5oYvnj0rsGTtLO7JSjuxWbFzleAP7O/view?usp=sharing"
+                href="https://drive.google.com/file/d/1LuQ21hNJyN2nT65fZgYKvOlPHFKv8iW3/view?usp=sharing"
                 className="px-7 py-3 rounded-lg bg-slate-100 text-slate-900 font-medium hover:bg-white transition-all duration-300 hover:shadow-lg hover:scale-105"
               >
                 Resume
@@ -105,7 +105,7 @@ export default function Home() {
               <p className="text-slate-300 font-light text-sm mb-3">Georgia Institute of Technology, College of Computing</p>
               <p className="text-slate-400 font-light text-sm mb-2">Atlanta, Georgia</p>
               <p className="text-slate-400 font-light text-sm mb-1">Graduation: December 2025</p>
-              <p className="text-slate-400 font-light text-sm">GPA: 3.47 </p>
+              <p className="text-slate-400 font-light text-sm">GPA: 3.5 </p>
             </div>
           </div>
 
