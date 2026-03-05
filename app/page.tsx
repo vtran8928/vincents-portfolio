@@ -136,8 +136,8 @@ export default function Home() {
             </div>
             <ul className="space-y-2">
               {[
-                'Built and launched a home maintenance SaaS product, leading software development from ideation through MVP release',
-                'Conducted customer discovery interviews to validate product-market fit and inform feature prioritization'
+                'Led full-stack development of a home maintenance SaaS through CREATE-X, building a cross-platform React Native app with Node.js backend from ideation to MVP',
+                'Validated product-market fit through customer discovery interviews, iterating on features including RAG-powered appliance troubleshooting and proximity-based service provider search'
               ].map((item, i) => (
                 <li key={i} className="text-slate-300 font-light text-sm flex gap-3">
                   <span className="text-slate-500 mt-1">•</span>
