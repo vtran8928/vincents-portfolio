@@ -93,7 +93,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
       {/* Education & Coursework Section */}
       <section className="max-w-6xl mx-auto py-20 md:py-28 border-t border-slate-800">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -128,17 +127,17 @@ export default function Home() {
         <h2 className="text-4xl md:text-5xl font-light tracking-tight mb-12 text-slate-50">Experience</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
           <div className="group bg-slate-900 border border-slate-700 rounded-2xl p-7 hover:border-slate-600 hover:shadow-lg transition-all duration-300">
             <div className="mb-4">
-              <h3 className="text-lg font-light text-slate-50 group-hover:text-slate-200 transition-colors mb-1">Student Assistant</h3>
-              <p className="text-slate-300 font-light text-sm mb-1">Georgia Tech Tutoring and Academic Support</p>
-              <p className="text-slate-400 font-light text-sm">Dec 2024 - Dec 2025</p>
+              <h3 className="text-lg font-light text-slate-50 group-hover:text-slate-200 transition-colors mb-1">Software Developer</h3>
+              <p className="text-slate-300 font-light text-sm mb-1">CREATE-X Startup Launch — Georgia Tech</p>
+              <p className="text-slate-400 font-light text-sm">May 2025 – Dec 2025</p>
             </div>
             <ul className="space-y-2">
               {[
-                'Facilitated access to campus assistive services for 5,500+ students weekly using internal software systems',
-                'Analyzed 1500 data points to quantify impact and enhance efficiency',
-                'Scheduled and managed 90+ tutoring sessions, overseeing 110+ hours of operations'
+                'Built and launched a home maintenance SaaS product, leading software development from ideation through MVP release',
+                'Conducted customer discovery interviews to validate product-market fit and inform feature prioritization'
               ].map((item, i) => (
                 <li key={i} className="text-slate-300 font-light text-sm flex gap-3">
                   <span className="text-slate-500 mt-1">•</span>
@@ -150,16 +149,15 @@ export default function Home() {
 
           <div className="group bg-slate-900 border border-slate-700 rounded-2xl p-7 hover:border-slate-600 hover:shadow-lg transition-all duration-300">
             <div className="mb-4">
-              <h3 className="text-lg font-light text-slate-50 group-hover:text-slate-200 transition-colors mb-1">Restaurant Waiter/Cashier</h3>
-              <p className="text-slate-300 font-light text-sm mb-1">Super Pho</p>
-              <p className="text-slate-400 font-light text-sm">Dec 2019 - Aug 2023</p>
+              <h3 className="text-lg font-light text-slate-50 group-hover:text-slate-200 transition-colors mb-1">Student Assistant</h3>
+              <p className="text-slate-300 font-light text-sm mb-1">Georgia Tech Tutoring and Academic Support</p>
+              <p className="text-slate-400 font-light text-sm">Dec 2024 – Dec 2025</p>
             </div>
             <ul className="space-y-2">
               {[
-                'Operated POS systems to manage high-volume transactions with speed and accuracy',
-                'Communicated detailed menu knowledge and dietary information to customers',
-                'Resolved customer issues with professionalism and efficiency',
-                'Upsold featured items through tailored recommendations'
+                'Facilitated access to campus assistive services for 5,500+ students weekly using internal software systems',
+                'Analyzed 1,650 data points to quantify impact and enhance operational efficiency',
+                'Scheduled and managed 70+ tutoring sessions, overseeing 100+ hours of operations'
               ].map((item, i) => (
                 <li key={i} className="text-slate-300 font-light text-sm flex gap-3">
                   <span className="text-slate-500 mt-1">•</span>
@@ -168,6 +166,44 @@ export default function Home() {
               ))}
             </ul>
           </div>
+
+          <div className="group bg-slate-900 border border-slate-700 rounded-2xl p-7 hover:border-slate-600 hover:shadow-lg transition-all duration-300">
+            <div className="mb-4">
+              <h3 className="text-lg font-light text-slate-50 group-hover:text-slate-200 transition-colors mb-1">Software Developer</h3>
+              <p className="text-slate-300 font-light text-sm mb-1">LinguaConnect</p>
+              <p className="text-slate-400 font-light text-sm">Jan 2026 – Present</p>
+            </div>
+            <ul className="space-y-2">
+              {[
+                'Building a language tutoring marketplace connecting students with independent teachers for live sessions, featuring booking, scheduling, and commission-based payments',
+                'Developing full-stack platform with React frontend and Node.js/Express backend with integrated video conferencing and interactive learning tools'
+              ].map((item, i) => (
+                <li key={i} className="text-slate-300 font-light text-sm flex gap-3">
+                  <span className="text-slate-500 mt-1">•</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="group bg-slate-900 border border-slate-700 rounded-2xl p-7 hover:border-slate-600 hover:shadow-lg transition-all duration-300">
+            <div className="mb-4">
+              <h3 className="text-lg font-light text-slate-50 group-hover:text-slate-200 transition-colors mb-1">Tutor</h3>
+              <p className="text-slate-300 font-light text-sm mb-1">ACE Academy</p>
+              <p className="text-slate-400 font-light text-sm">Dec 2025 – Present</p>
+            </div>
+            <ul className="space-y-2">
+              {[
+                'Delivered individualized instruction in math, reading, and writing to students across multiple grade levels'
+              ].map((item, i) => (
+                <li key={i} className="text-slate-300 font-light text-sm flex gap-3">
+                  <span className="text-slate-500 mt-1">•</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
         </div>
       </section>
 
@@ -176,6 +212,7 @@ export default function Home() {
         <h2 className="text-4xl md:text-5xl font-light tracking-tight mb-12 text-slate-50">Projects</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
           {/* Project 1 */}
           <div className="group bg-slate-900 border border-slate-700 rounded-2xl p-7 hover:border-slate-600 hover:shadow-lg transition-all duration-300">
             <div className="mb-3">
@@ -194,7 +231,7 @@ export default function Home() {
               {[
                 'Developed a music analytics application displaying personalized listening statistics using Progressive Disclosure UI patterns',
                 'Implemented OAuth 2.0 authentication and retrieved user listening data via Spotify Web API',
-                'Generated personalized artist recommendations and lifestyle insights using OpenAI API with CoT prompting to improve recommendation logic',
+                'Generated personalized artist recommendations and lifestyle insights using OpenAI API with CoT prompting',
                 'Integrated Firebase Cloud Storage for cross-device data synchronization across user sessions'
               ].map((item, i) => (
                 <li key={i} className="text-slate-300 font-light text-sm flex gap-2">
@@ -244,6 +281,34 @@ export default function Home() {
           <div className="group bg-slate-900 border border-slate-700 rounded-2xl p-7 hover:border-slate-600 hover:shadow-lg transition-all duration-300">
             <div className="mb-3">
               <h3 className="text-lg font-light text-slate-50 group-hover:text-slate-200 transition-colors mb-2">
+                AWS-Powered Photo Hub
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {['AWS S3', 'AWS Lambda', 'AWS CloudFront', 'Python', 'Flask', 'React', 'JavaScript'].map((tech) => (
+                  <span key={tech} className="px-2 py-1 bg-slate-800 text-slate-200 text-xs font-light rounded-full border border-slate-700">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <ul className="space-y-2 mb-4">
+              {[
+                'Built a scalable photo storage platform using AWS S3 for object storage and CloudFront CDN for low-latency global content delivery via edge caching',
+                'Implemented serverless image processing pipelines with AWS Lambda, enabling automatic scaling to handle concurrent uploads without manual infrastructure management',
+                'Developed React frontend with Flask REST API backend, using pre-signed S3 URLs for secure direct client-to-storage uploads while minimizing server overhead'
+              ].map((item, i) => (
+                <li key={i} className="text-slate-300 font-light text-sm flex gap-2">
+                  <span className="text-slate-500 mt-1">•</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Project 4 */}
+          <div className="group bg-slate-900 border border-slate-700 rounded-2xl p-7 hover:border-slate-600 hover:shadow-lg transition-all duration-300">
+            <div className="mb-3">
+              <h3 className="text-lg font-light text-slate-50 group-hover:text-slate-200 transition-colors mb-2">
                 Cosmic Voyage – Interactive 3D Space Rendering
               </h3>
               <div className="flex flex-wrap gap-2">
@@ -271,7 +336,7 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Project 4 */}
+          {/* Project 5 */}
           <div className="group bg-slate-900 border border-slate-700 rounded-2xl p-7 hover:border-slate-600 hover:shadow-lg transition-all duration-300">
             <div className="mb-3">
               <h3 className="text-lg font-light text-slate-50 group-hover:text-slate-200 transition-colors mb-2">
@@ -301,7 +366,7 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Project 5 */}
+          {/* Project 6 */}
           <div className="group bg-slate-900 border border-slate-700 rounded-2xl p-7 hover:border-slate-600 hover:shadow-lg transition-all duration-300">
             <div className="mb-3">
               <h3 className="text-lg font-light text-slate-50 group-hover:text-slate-200 transition-colors mb-2">
@@ -331,7 +396,7 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Project 6 */}
+          {/* Project 7 */}
           <div className="group bg-slate-900 border border-slate-700 rounded-2xl p-7 hover:border-slate-600 hover:shadow-lg transition-all duration-300">
             <div className="mb-3">
               <h3 className="text-lg font-light text-slate-50 group-hover:text-slate-200 transition-colors mb-2">
@@ -361,6 +426,7 @@ export default function Home() {
               View Project →
             </a>
           </div>
+
         </div>
       </section>
 
